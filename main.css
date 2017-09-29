@@ -88,7 +88,7 @@ vertical-align: middle;
 }
 
 
-#toDo-title {
+#toDo-title, #Done-title, #inProgress-title {
   font-size: 35px;
   color: #58dddd;
   font-weight: bold;
@@ -96,23 +96,6 @@ vertical-align: middle;
 
 }
 
-#inProgress-title{
-  font-size: 35px;
-  color: #58dddd;
-  font-weight: bold;
-  text-shadow: 3px 3px black;
-
-
-}
-
-#Done-title {
-  font-size: 35px;
-  color: #58dddd;
-  font-weight: bold;
-  text-shadow: 3px 3px black;
-
-
-}
 #toDo-title:hover, #inProgress-title:hover, #Done-title:hover{
   text-shadow: 10px 10px 10px black;
 }
