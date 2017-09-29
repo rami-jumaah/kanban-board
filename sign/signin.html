@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Pop up -> Sign In / Sign-up </title>
+  <title>Sign In</title>
 
   <!--  core CSS -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -27,11 +27,6 @@
       <div class="col-md-6 col-xs-12 text-center">
         <!--   Sign In Button -->
         <a href="#" class="signin" data-toggle="modal" data-target="#signin">SIgn In</a>
-      </div>
-
-      <div class="col-md-6 col-xs-12 text-center">
-        <!--  Sign Up Button -->
-        <a href="#" class="signup" data-toggle="modal" data-target="#signup">SIgn Up</a>
       </div>
     </div>
   </div>
@@ -70,46 +65,6 @@
     </div>
   </div>
   <!-- end:modal-signin -->
-
-
-
-  <!-- begin:modal-signup -->
-  <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Sign up</h4>
-        </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <input type="email" class="form-control input-lg" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control input-lg" placeholder="Password">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control input-lg" placeholder="Confirm Password">
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" name="agree"> Agree to our <a href="#">terms of use</a> and <a href="#">privacy policy</a>
-              </label>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <p>Already have account ?
-            <a href="#modal-signin" data-toggle="modal" data-target="#modal-signin">Sign in here.</a>
-          </p>
-          <input type="submit" class="confirm-btn" value="Sign up">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end:modal-signup -->
-
 
   <!-- modal -->
 
