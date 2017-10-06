@@ -2,6 +2,7 @@ body {
 background-color: #f2880b;
 background-image: url(img1.jpg);
 background-size: cover;
+background-attachment: fixed;
 }
 h1 {
   text-align: center;
@@ -64,12 +65,15 @@ vertical-align: middle;
   right: 103px;
   top: 20px;
   padding-bottom: 10px;
+  background-color: #4CAF50;
+
 }
 #signUp {
   position: absolute;
   right: 30px;
   top: 20px;
   padding-bottom: 10px;
+
 }
 
 #add {
