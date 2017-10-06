@@ -56,14 +56,14 @@
     <!-- modal -->
 
     <script>
-    $('.modal').on('shown.bs.modal', function() {
-      var curModal = this;
-      $('.modal').each(function() {
-        if (this != curModal) {
-          $(this).modal('hide');
-        }
+      $('.modal').on('shown.bs.modal', function() {
+        var curModal = this;
+        $('.modal').each(function() {
+          if (this != curModal) {
+            $(this).modal('hide');
+          }
+        });
       });
-    });
     </script>
   </div>
 
@@ -104,24 +104,25 @@
   <!-- modal -->
 
   <script>
-  $('.modal').on('shown.bs.modal', function() {
-    var curModal = this;
-    $('.modal').each(function() {
-      if (this != curModal) {
-        $(this).modal('hide');
-      }
+    $('.modal').on('shown.bs.modal', function() {
+      var curModal = this;
+      $('.modal').each(function() {
+        if (this != curModal) {
+          $(this).modal('hide');
+        }
+      });
     });
-  });
   </script>
-  
+
   <div class='container text-center'>
     <h1 id="title">KanBan Board</h1>
   </div>
   <div class="container text-center">
+
     <input type="text" placeholder=" What are you going to do ??" id='input' required/>
     <button id="add" class="btn btn-primary">Add</button>
-    <P class="must"></P>
 
+    <P class="must"></P>
   </div>
   <div class="row text-center">
 

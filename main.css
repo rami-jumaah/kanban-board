@@ -21,13 +21,15 @@ font-size: 30px;
 
 }
 .must{
-color: #e02121;
+color: #162ae4;
 font-size: 20px;
 text-shadow: 0.5px 0.5px white;
 font-weight: bold;
+
 }
 .must:hover{
   text-shadow: 8px 8px 8px white;
+
 }
 .sticky{
 height: 150px;
